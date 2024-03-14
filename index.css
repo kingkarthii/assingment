@@ -1,0 +1,102 @@
+
+@media (min-width:768px){
+
+    .backgroundContainer {
+        background-image:radial-gradient(rgba(0, 0, 0, 0.6),green) ; 
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+}
+@media (max-widht:768px) {
+    .backgroundContainer {
+        background-image:radial-gradient(rgba(0, 0, 0, 0.6),green) ; 
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+
+
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box; /* Optional: Include padding and border in element's total width and height */
+}
+
+
+.mainHeading{
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding: auto;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0); /* Add a shadow to heading */
+}
+.para{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Roboto";
+    gap: 10;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.listItems{
+    color: white;
+    margin: 10px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: "Roboto";
+    gap: 10;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+.innerContainer2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.button1{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    margin: 15px;
+    align-self: center; /* Align button to center vertically */
+    border:0px;
+    border-radius: 10px;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    margin: 15px;
+    align-self: center; /* Align button to center vertically */
+    border:0px;
+    border-radius: 10px;
+
+
+}
